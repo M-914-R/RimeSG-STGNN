@@ -2,21 +2,18 @@
 This repository provides the implementation and experimental resources for the RimeSG-STGNN framework, including data preprocessing, adjacency matrix construction, hyperparameter optimization, and four model configurations used in the experimental workflow.
 
 🔧 Repository Structure
-├── RimeSG-STGNN/          # Full model implementation (RIME + SG + TimesNet + HGL)
-├── SG-STGNN/              # SG-enhanced spatiotemporal model
-├── STGNN/                 # TimesNet + Hybrid Graph Learning
-├── TimesNet/              # Temporal baseline model
-│
-├── data/
-│   ├── raw/               # Original high-frequency monitoring data
-│   ├── filled/            # Data after missing-value imputation
-│   └── adjacency/         # Generated adjacency matrices
-│
-├── adjacency_matrix.py    # Script for Pearson-based correlation graph construction
-├── missing_value.py       # Script for missing-value handling
-├── rime_hpo.py            # RIME-based hyperparameter optimization module
-│
-└── README.md
+RimeSG-STGNN/ Full model implementation (RIME + SG + TimesNet + HGL)
+SG-STGNN/ SG-enhanced spatiotemporal model
+STGNN/ TimesNet + Hybrid Graph Learning
+TimesNet/ Temporal baseline model
+data/
+raw/ Original high-frequency monitoring data
+filled/ Data after missing-value imputation
+adjacency/ Generated adjacency matrices
+adjacency_matrix.py Script for Pearson-based correlation graph construction
+missing_value.py Script for missing-value handling
+rime_hpo.py RIME-based hyperparameter optimization module
+README.md
 
 📦 Included Components
 1. Data Processing
